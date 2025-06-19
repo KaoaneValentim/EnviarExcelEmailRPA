@@ -1,0 +1,1 @@
+{"Workflows":[{"FilePath":"Main.xaml","Activities":[{"IdRef":"ExcelApplicationCard_1","TemplateValueProperties":["WorkbookPath"]},{"IdRef":"ReadRangeX_1","TemplateValueProperties":["Range"]},{"IdRef":"WordApplicationScope_1","TemplateValueProperties":["FilePath"]},{"IdRef":"SendMailX_1","TemplateValueProperties":["To","Subject"]}]}]}
