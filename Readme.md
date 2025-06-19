@@ -24,7 +24,7 @@ workbookPath := "C:\caminho\completo\Funcionarios.xlsx"
 - Crie um documento `.docx` que servirá como **base para o relatório**.
 - Ele será preenchido com a tabela do Excel e convertido para PDF.
 
-📍 Altere a propriedade `FilePath` na atividade `Use Word File`:
+ Altere a propriedade `FilePath` na atividade `Use Word File`:
 ```vb
 FilePath := "C:\caminho\para\modelo.docx"
 ```
@@ -34,8 +34,7 @@ FilePath := "C:\caminho\para\modelo.docx"
 ##  3. Destinatário do E-mail
 
 - Defina o campo `To` com o e-mail do destinatário na atividade `Send Email`.
-
-📍 Exemplo:
+ Exemplo:
 ```vb
 To := "exemplo@dominio.com"
 Subject := "Relatório gerado automaticamente"
@@ -59,7 +58,7 @@ Subject := "Relatório gerado automaticamente"
 .data/HtmlContent0.html
 ```
 
-🛠️ Você pode editar esse arquivo ou substituir o conteúdo HTML pela propriedade `Body` com texto simples.
+ Você pode editar esse arquivo ou substituir o conteúdo HTML pela propriedade `Body` com texto simples.
 
 ---
 
